@@ -3,8 +3,10 @@ document.getElementsByClassName("img-submit")[0].addEventListener("click", funct
   var emailInput = document.querySelector(".form-email").value;
   if (!(verifyEmail(emailInput))) {
     document.getElementById("err").src = "images/icon-error.png";
+    document.getElementById("last-statement").innerHTML="Please provide a valid email.";
   } else {
     document.getElementById("err").src = "";
+    document.getElementById("last-statement").innerHTML="Thanks for submitting.";    
   }
 });
 

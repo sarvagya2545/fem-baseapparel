@@ -76,6 +76,13 @@ input:focus {
   top: 10px;
 }
 
+#last-statement{
+  font-size: 16px;
+  color: #ce9797;
+  position: absolute;
+  left: 200px;
+}
+
 /* #image{
   background-image: url("images/hero-desktop.jpg");
   height: 800px;
@@ -130,5 +137,13 @@ input:focus {
     position: absolute;
     top: 704px;
     left: 240px;
+  }
+
+  #last-statement{
+    font-size: 16px;
+    color: #ce9797;
+    position: absolute;
+    left: 50px;
+    top: 750px;
   }
 }
